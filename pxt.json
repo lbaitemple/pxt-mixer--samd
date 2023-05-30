@@ -1,5 +1,5 @@
 {
-    "name": "mixer---samd",
+    "name": "mixer-samd",
     "description": "The music library with a mixer",
     "dependencies": {
         "core": "*"
