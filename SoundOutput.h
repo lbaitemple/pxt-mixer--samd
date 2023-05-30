@@ -10,7 +10,7 @@ class SoundOutput {
   public:
     SAMDDAC dac;
 
-    SoundOutput(DataSource &data) : dac(*pxt::lookupPin(PIN_PA02), data) {
+    SoundOutput(DataSource &data) : dac(*pxt::lookupPin(PIN_PA20), data) {
         jacdac::setJackRouterOutput(-1);
     }
 
